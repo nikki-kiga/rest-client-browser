@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results container renders a results container 1`] = `
+<textarea
+  cols="30"
+  id="results"
+  readOnly={true}
+  rows="10"
+  value={Object {}}
+/>
+`;

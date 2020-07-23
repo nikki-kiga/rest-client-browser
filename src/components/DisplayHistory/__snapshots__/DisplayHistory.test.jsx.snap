@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test display history component renders a display history component 1`] = `<Fragment />`;

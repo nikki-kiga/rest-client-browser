@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`REST Button renders a button based on the input 1`] = `
+<div
+  className="radio"
+>
+  <label>
+    <input
+      className="request-type"
+      name="requestType"
+      onChange={[MockFunction]}
+      type="radio"
+      value="test"
+    />
+    TEST
+  </label>
+</div>
+`;
