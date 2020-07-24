@@ -18,4 +18,9 @@ describe('Request container', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
+  it('invokes on change when text entered for url', () => {
+    wrapper.find('input[name="url"]').simulate('change');
+    expect(handleChange).toHaveBeenCalledTimes(1);
+  });
+
 });

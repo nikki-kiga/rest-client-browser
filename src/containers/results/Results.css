@@ -1,0 +1,9 @@
+.results {
+    background: #f5f5f5;
+    border: 1px solid #111;
+    flex: 1;
+    height: calc(100vh - 18rem);
+    margin: 1rem;
+    overflow: auto;
+    padding: 2rem;
+  }

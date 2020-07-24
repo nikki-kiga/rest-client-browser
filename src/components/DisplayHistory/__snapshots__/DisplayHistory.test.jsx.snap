@@ -1,3 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test display history component renders a display history component 1`] = `<Fragment />`;
+exports[`test display history component renders a display history component 1`] = `
+<ul
+  className="history"
+>
+  <p>
+    This is a test
+  </p>
+  <li
+    className="get"
+    key="www.test.com/api/test"
+  >
+    <span
+      className="method"
+    >
+      get
+    </span>
+    <button
+      className="url"
+    >
+      www.test.com/api/test
+    </button>
+  </li>
+  <li
+    className="post"
+    key="www.test.com/api/test"
+  >
+    <span
+      className="method"
+    >
+      post
+    </span>
+    <button
+      className="url"
+    >
+      www.test.com/api/test
+    </button>
+  </li>
+</ul>
+`;

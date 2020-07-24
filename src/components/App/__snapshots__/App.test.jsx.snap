@@ -7,9 +7,13 @@ exports[`App component renders App 1`] = `
     onSubmit={[Function]}
     url=""
   />
-  <DisplayHistory
-    history={Array []}
-  />
-  <Result />
+  <main>
+    <DisplayHistory
+      history={Array []}
+    />
+    <Result
+      response={Object {}}
+    />
+  </main>
 </Fragment>
 `;

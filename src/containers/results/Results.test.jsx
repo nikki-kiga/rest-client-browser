@@ -5,7 +5,7 @@ import Results from './Results.jsx';
 describe('Results container', () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallow(<Results />);
+    wrapper = shallow(<Results response={{}} />);
   });
 
   it('renders a results container', () => {

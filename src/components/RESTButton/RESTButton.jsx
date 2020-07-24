@@ -1,19 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './RESTButton.css';
 
 const Button = ({ reqType, onChange  }) => (
-  <div className = 'radio'>
-    <label>
-      <input 
-        type= 'radio'
-        name= 'requestType'
-        value={reqType}
-        onChange={onChange}
-        className='request-type'
-      />
-      {reqType.toUpperCase()}
-    </label>
-  </div>
+  <>
+    
+    <input 
+      type= 'radio'
+      name= 'requestType'
+      id={reqType}
+      value={reqType}
+      onChange={onChange}
+      className={styles.method}
+    />
+    
+    <label htmlFor={reqType}>{reqType.toUpperCase()}</label>
+  </>
 );
 
 Button.propTypes = {

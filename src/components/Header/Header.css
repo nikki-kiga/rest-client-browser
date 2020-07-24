@@ -1,0 +1,12 @@
+header {
+    background: #111;
+    text-align: center;
+
+  }
+
+  h1 {
+    color: #eee;
+    display: inline-block;
+    font-weight: 700;
+    margin: .5em auto;
+  }
