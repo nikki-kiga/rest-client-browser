@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Request container renders a request container 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <input
+    name="url"
+    onChange={[MockFunction]}
+    placeholder="http://api.url.here"
+    value="http://api.url.here"
+  />
+  <button
+    className="submit"
+  >
+    Go!
+  </button>
+  <Button
+    key="get"
+    onChange={[MockFunction]}
+    reqType="get"
+  />
+  <Button
+    key="post"
+    onChange={[MockFunction]}
+    reqType="post"
+  />
+  <Button
+    key="put"
+    onChange={[MockFunction]}
+    reqType="put"
+  />
+  <Button
+    key="delete"
+    onChange={[MockFunction]}
+    reqType="delete"
+  />
+  <input
+    name="json"
+    onChange={[MockFunction]}
+  />
+</form>
+`;
